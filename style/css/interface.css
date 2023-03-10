@@ -1,0 +1,139 @@
+.position-center{
+    display: flex;
+    
+}
+input{
+   
+    padding: 10px;
+    padding-left: 20px;
+  
+    border-radius: 20px;
+    outline:none;
+    border: 2px solid gray;
+    transition: 0.5s;
+    margin-bottom: 2%;
+}
+.inp-70-page-log{
+    width: 70%;
+}
+.inp-30-page-reg{
+    width: 60%;
+}
+
+input:focus {
+    border: 2px solid #F9F871;
+    transition: 2s;
+  }
+
+  .seach:focus {
+    border: 2px solid black;
+    
+  }
+
+ 
+
+
+
+input [type=text]{
+    
+    border-radius: 20px;
+    color: grey;
+    font-size: 10px;
+    margin: 10px;
+}
+
+input [type=date]{
+    width: 275%;
+   
+}
+
+.btn-blck{
+    text-decoration: none;
+    background-color: rgb(24, 24, 24) ;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 70px;
+    
+    padding-right: 70px;
+   
+    
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+    box-shadow: 0px 8px 0px 0px rgb(12, 12, 12);
+    
+    
+}
+
+.btn-blck:hover{
+    color: rgb(199, 199, 199);
+    box-shadow: 0px 6px 0px 0px rgb(29, 29, 29);
+}
+
+.btn-blck:active {
+    color: rgb(160, 160, 160);
+    box-shadow: 0px 3px 0px 0px black;
+    
+  }
+
+
+  
+.forms .btn-blck{
+    
+    justify-content: center;
+}
+.forms p{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 25px;
+}
+
+.form-group{
+    
+    padding-top: 15px;
+    margin: 0 auto
+}
+.form-group form{
+    padding-top: 20px;
+    margin-top: 20px;
+
+   
+}
+.form-group2 .form-reg, .input-reg{
+    
+    display:block;
+    
+
+   
+}
+.form-group .form-lg, .input-lg{
+    
+    display:block;
+    margin:0 auto;
+
+   
+}
+
+.form-group p{
+text-align: center;
+}
+
+.btn-lr{
+    color: orange;
+    font-style: italic;
+    }
+
+
+
+
+.titile-lg{
+
+    text-align: center;
+    padding-top: 20px;
+        }
+
+.titile-reg{
+    padding-top: 20px;
+    padding-left: 40px;
+}
