@@ -1,0 +1,56 @@
+.card {
+    background-color: #0099ff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+
+    width: 500px;
+    height: 300px;
+    backdrop-filter: blur(5px);
+    
+  }
+
+.card-ccvs-content1{
+    padding: 10%;
+}
+.card-ccvs{
+    position: absolute; 
+    z-index: -2; 
+    height: 100px;
+    width: 500px;
+    height: 300px;
+
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.card-ccvs-content2{
+    padding-top: 260px;
+    padding-left: 20%;
+}
+  
+  .card-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+ 
+  .card-date {
+    font-size: 28px;
+    margin-bottom: 10px;
+
+  }
+
+
+  .card-ccv {
+    font-size: 18px;
+  }
+
+
+
+  input[type=date]{
+    padding: 10px;
+    border-radius: 20px;
+  }
